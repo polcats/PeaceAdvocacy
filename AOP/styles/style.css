@@ -1,0 +1,153 @@
+@font-face {
+    font-family: Lacuna;
+    src: url(../lacuna.ttf);
+}
+
+@font-face {
+    font-family: Cicle;
+    src: url(../Cicle_Fina.ttf);
+}
+
+body {
+	background: #e0e0e0;
+	margin: 0;
+	padding: 0;
+}
+
+#page_body {
+	background: #331F14;
+	border: none;
+	padding: 0;
+	border-spacing: 0;
+	margin: 0 auto; /*centers element*/
+	width: 850px;
+}
+
+#page_body a {
+	color: #331F14;
+	text-decoration: none;
+}
+#page_body a:hover {
+	color: #fff;
+}
+
+#banner_wrap {
+	background: url("../peace banner.png") top center no-repeat scroll;
+	width: 850px;
+	height: 383px;
+	vertical-align: bottom;
+	margin: 0 auto;
+}
+
+#nav {
+	border: 0;
+	padding: 0;
+	border-spacing: 0;
+	width: 100%;
+	margin: 10px auto;
+}
+
+#nav td {
+	margin: 0;
+	padding: 0;
+	width: 20%;
+	vertical-align: middle;
+	text-align: center;
+}
+
+#nav a {
+	transition: 1s ease all;
+	color: #fff;
+	font-family: Cicle;
+	font-size: 25px;
+	text-decoration: none;
+	margin: 0;
+}
+
+#nav a:hover {
+	color: #cccc66;
+}
+
+#nav a.active {
+	color: #66cccc;
+}
+
+#left_wrap {
+	width: 70%;
+	vertical-align: top;
+	border-bottom: 3px #fff solid;
+	border-top: 3px #fff solid;
+}
+
+.content {
+	margin: 0 auto;
+	padding: 0;
+	border-spacing: 0;
+	width: 95%;
+	border: 0;
+}
+
+.content td:first-child {
+	vertical-align: top;
+}
+.content td h3::first-letter {
+	font-size: 40px;
+}
+.content td h3 {
+	color: #ffcc33;
+	font-family: Cicle, "Century Gothic";
+	border-bottom: 1px solid #fff;
+	font-size: 23px;
+}
+.content td:last-child {
+	text-align: left;
+}
+.content td p {
+	font-size: 15px;
+	color: #fff;
+	font-family: Lacuna, "Lucida Sans";
+	text-align: justify;
+	text-indent: 35px;
+}
+
+#right_wrap {
+	width: 30%;
+	background: #ffcc66;
+	vertical-align: top;
+	border-bottom: 3px #fff solid;
+	border-top: 3px #fff solid;
+}
+
+.side_content {
+	margin: 0 auto;
+	padding: 0;
+	border-spacing: 0;
+	width: 95%;
+	border: 0;
+}
+
+.side_content td:first-child {
+	vertical-align: top;
+	text-align: center;
+}
+.side_content td:last-child {
+	text-align: center;
+}
+.side_content p {
+	font-size: 13px;
+	color: #331f14;
+	font-family: "Lucida Sans";
+	text-align: justify;
+}
+
+.side_content h3::first-letter {
+	font-size: 34px;
+}
+
+.side_content h3 {
+	text-align: left;
+	font-size: 24;
+	color: #331f14c;
+	font-family: "Century Gothic";
+	border-bottom: 2px solid #fff;
+}
